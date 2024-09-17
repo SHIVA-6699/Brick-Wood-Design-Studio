@@ -28,7 +28,7 @@ export const ContactUs = () => {
         <p className="text-lg mt-1">
           Miyapur Main Road, Allwyn X Road, Hafeezpet, Miyapur, Telangana, India
         </p>
-        <p className="text-lg mt-1">8297277899 | 7207971717</p>
+        <p className="text-lg mt-1">8297277899 | 9100994444</p>
 
         {/* Social Media Section */}
         <div className="mt-12">
@@ -91,7 +91,7 @@ export const ContactUs = () => {
                 </g>
               </svg>
             </Link>
-         
+
             {/* Add more social links as needed */}
           </div>
         </div>

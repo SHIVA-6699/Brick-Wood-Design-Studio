@@ -148,7 +148,7 @@ const CardSection = ({ imageData ,title}) => {
         <h1 className="text-4xl text-secondary uppercase font-bold text-center mb-7">
             {title}
         </h1>
-      <div className="bg-primary p-10 mySwiper  mx-10">
+      <div className="bg-primary p-10 mySwiper  lg:mx-10">
         <Swiper
           onSwiper={(swiper) => (swiperRef.current = swiper)} // Save Swiper instance
           spaceBetween={10}
@@ -169,7 +169,7 @@ const CardSection = ({ imageData ,title}) => {
             </SwiperSlide>
           ))}
         </Swiper>
-        <div className="flex flex-wrap justify-center gap-3 lg:gap-3 lg:space-x-4  mt-6">
+        {/* <div className="flex flex-wrap justify-center gap-3 lg:gap-3 lg:space-x-4  mt-6">
           {imageData.map((image, index) => (
             <img
               key={index}
@@ -179,7 +179,7 @@ const CardSection = ({ imageData ,title}) => {
               onClick={() => handleThumbnailClick(index)} // Click to navigate to the respective slide
             />
           ))}
-        </div>
+        </div> */}
 
         {/* Thumbnails for smaller images */}
       </div>

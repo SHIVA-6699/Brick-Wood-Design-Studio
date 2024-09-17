@@ -21,6 +21,7 @@ export const FormHire = () => {
     formdata.append("firstname", data.firstname);
     formdata.append("lastname", data.lastname);
     formdata.append("email", data.email);
+    formdata.append("phone", data.phone);
     formdata.append("subject", data.subject);
     formdata.append("message", data.message);
     try {
@@ -42,7 +43,7 @@ export const FormHire = () => {
   };
 
   return (
-    <div className=" flex justify-center items-center bg-primary">
+    <div className=" flex justify-center items-center p-10 bg-primary">
       <div className="w-full max-w-lg">
         <h2 className="text-center text-white text-2xl mb-8">Apply Now</h2>
         <ToastContainer />
@@ -77,6 +78,17 @@ export const FormHire = () => {
             {errors.email && (
               <span className="text-white">This field is required</span>
             )}
+            <InputField
+              text={"Phone"}
+              name={"phone"}
+              register={register}
+              className="w-full p-4 bg-primary text-white rounded-lg focus:outline-none"
+            />
+            {errors.phone && (
+              <span className="text-white">This field is required</span>
+            )}
+
+            
 
             <textarea
               className="w-full h-48 bg-[#448168] border-2 text-white p-4 rounded-lg focus:outline-none"
