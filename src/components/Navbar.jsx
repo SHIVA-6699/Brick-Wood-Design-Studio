@@ -63,7 +63,7 @@ const Navbar = () => {
           Home
         </Link>
         <Link to="/projects" className="block py-2 px-4 text-white hover:bg-rise">
-          About
+          Projects
         </Link>
         <Link
           to="/ourstory"
