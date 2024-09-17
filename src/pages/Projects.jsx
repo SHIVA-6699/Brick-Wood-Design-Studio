@@ -10,6 +10,19 @@ import { Navigation, Pagination } from "swiper/modules";
 const Projects = () => {
   const data = [
     {
+      title: "Pranu's griha ",
+      img: [
+        "Projects/slide6/1.jpg",
+        "Projects/slide6/2.jpg",
+        "Projects/slide6/3.jpg",
+        "Projects/slide6/4.jpg",
+        "Projects/slide6/5.jpg",
+        "Projects/slide6/6.jpg",
+        "Projects/slide6/7.jpg",
+        "Projects/slide6/8.jpg",
+      ],
+    },
+    {
       title: "MY HOME BHOOJA",
 
       img: [
@@ -25,20 +38,35 @@ const Projects = () => {
       ],
     },
     {
-      title: "OBESSED FRAMES",
+      title: "Vedavathi villa",
       img: [
-        "Projects/slide2/1.jpg",
-        "Projects/slide2/2.jpg",
-        "Projects/slide2/3.jpg",
-        "Projects/slide2/4.jpg",
-        "Projects/slide2/5.jpg",
-        "Projects/slide2/6.jpg",
-        "Projects/slide2/7.jpg",
-        "Projects/slide2/8.jpg",
+        "Projects/slide7/1.png",
+        "Projects/slide7/2.png",
+        "Projects/slide7/3.png",
+        "Projects/slide7/4.png",
+        "Projects/slide7/5.png",
+        "Projects/slide7/6.png",
+        "Projects/slide7/7.png",
+        "Projects/slide7/8.jpg",
+        "Projects/slide7/9.jpg",
       ],
     },
     {
-      title: "SHADY BLUES",
+      title: "Sarans residency ",
+      img: [
+        "Projects/slide8/1.png",
+        "Projects/slide8/2.png",
+        "Projects/slide8/3.png",
+        "Projects/slide8/4.png",
+        "Projects/slide8/5.png",
+        "Projects/slide8/6.png",
+        "Projects/slide8/7.png",
+        "Projects/slide8/8.png",
+        "Projects/slide8/9.png",
+      ],
+    },
+    {
+      title: "House of blues",
       img: [
         "Projects/slide3/1.jpg",
         "Projects/slide3/2.jpg",
@@ -52,6 +80,7 @@ const Projects = () => {
         "Projects/slide3/10.jpg",
       ],
     },
+
     {
       title: "SUKOON",
       img: [
@@ -70,13 +99,27 @@ const Projects = () => {
     },
     {
       title: "BLACK AND WHITE",
-      img:[
+      img: [
         "Projects/slide5/1.jpg",
         "Projects/slide5/2.jpg",
         "Projects/slide5/3.jpg",
         "Projects/slide5/4.jpg",
-            
-      ]
+      ],
+    },
+    {
+      title: "OBESSED FRAMES",
+      img: [
+        "Projects/slide2/1.jpg",
+        "Projects/slide2/2.jpg",
+        "Projects/slide2/3.jpg",
+        "Projects/slide2/4.jpg",
+        "Projects/slide2/5.jpg",
+        "Projects/slide2/6.jpg",
+        "Projects/slide2/7.jpg",
+        "Projects/slide2/8.jpg",
+        "Projects/slide2/9.png",
+        "Projects/slide2/10.png",
+      ],
     },
   ];
   // Create a ref for the Swiper instance
@@ -101,8 +144,8 @@ const CardSection = ({ imageData ,title}) => {
     }
   };
   return (
-    <div className="bg-primary">
-        <h1 className="text-4xl text-secondary capitalize font-bold text-center mb-7">
+    <div className="bg-primary lg:mx-[15rem]">
+        <h1 className="text-4xl text-secondary uppercase font-bold text-center mb-7">
             {title}
         </h1>
       <div className="bg-primary p-10 mySwiper  mx-10">
@@ -120,12 +163,13 @@ const CardSection = ({ imageData ,title}) => {
               <img
                 src={image}
                 alt={`Slide ${index}`}
-                className="w-full h-96 object-cover rounded-lg shadow-lg"
+                loading="lazy"
+                className="w-full h-[30rem] object-contain object-center  rounded-lg shadow-lg"
               />
             </SwiperSlide>
           ))}
         </Swiper>
-        <div className="flex flex-wrap gap-3 lg:gap-0 lg:space-x-4 mt-6 justify-start">
+        <div className="flex flex-wrap justify-center gap-3 lg:gap-3 lg:space-x-4  mt-6">
           {imageData.map((image, index) => (
             <img
               key={index}

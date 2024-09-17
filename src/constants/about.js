@@ -1,6 +1,6 @@
 export const about = [
   {
-    image: "/About/img1.jpg",
+    image: "/About/img3.png",
     title: "Our Value",
     description:
       "We take pride in being a value driven organisation. our core values are the foundation on which our success stories keep growing.",

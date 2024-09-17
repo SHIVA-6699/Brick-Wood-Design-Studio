@@ -12,7 +12,7 @@ const SwiperComponent = () => {
       navigation
       pagination={{ clickable: true }}
       autoplay={{ delay: 2500, disableOnInteraction: false }}
-      modules={[Navigation, Pagination,Autoplay]}
+      modules={[Navigation, Pagination, Autoplay]}
       className="h-[45rem] lg:h-[40rem]"
     >
       {/* Slide 1 */}
@@ -40,14 +40,14 @@ const SwiperComponent = () => {
       <SwiperSlide>
         <div className="relative h-full w-full">
           <img
-            src="/Home/img2.jpg"
+            src="/Home/2.jpg"
             alt="Living Room Image"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
             <div className="text-center text-white">
               <h1 className="text-4xl md:text-5xl font-bold">
-                Designing Spaces with Elegance
+                We are onair to build your dreams
               </h1>
               <p className="mt-4 text-lg md:text-xl">
                 Interior Planning, Space Optimization, Modern Design
@@ -61,14 +61,14 @@ const SwiperComponent = () => {
       <SwiperSlide>
         <div className="relative h-full w-full">
           <img
-            src="/Home/img3.jpg"
+            src="/Home/3.png"
             alt="Living Room Image"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
             <div className="text-center text-white">
               <h1 className="text-4xl md:text-5xl font-bold">
-                Designing Spaces with Elegance
+                We are onair to build your dreams
               </h1>
               <p className="mt-4 text-lg md:text-xl">
                 Interior Planning, Space Optimization, Modern Design
@@ -81,14 +81,14 @@ const SwiperComponent = () => {
       <SwiperSlide>
         <div className="relative h-full w-full">
           <img
-            src="/Home/img4.jpg"
+            src="/Home/4.png"
             alt="Living Room Image"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
             <div className="text-center text-white">
               <h1 className="text-4xl md:text-5xl font-bold">
-                Designing Spaces with Elegance
+                We are onair to build your dreams
               </h1>
               <p className="mt-4 text-lg md:text-xl">
                 Interior Planning, Space Optimization, Modern Design
@@ -100,14 +100,14 @@ const SwiperComponent = () => {
       <SwiperSlide>
         <div className="relative h-full w-full">
           <img
-            src="/Home/img5.jpg"
+            src="/Home/5.png"
             alt="Living Room Image"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
             <div className="text-center text-white">
               <h1 className="text-4xl md:text-5xl font-bold">
-                Designing Spaces with Elegance
+                We are onair to build your dreams
               </h1>
               <p className="mt-4 text-lg md:text-xl">
                 Interior Planning, Space Optimization, Modern Design
@@ -119,14 +119,14 @@ const SwiperComponent = () => {
       <SwiperSlide>
         <div className="relative h-full w-full">
           <img
-            src="/Home/img6.jpg"
+            src="/Home/6.jpg"
             alt="Living Room Image"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
             <div className="text-center text-white">
               <h1 className="text-4xl md:text-5xl font-bold">
-                Designing Spaces with Elegance
+                We are onair to build your dreams
               </h1>
               <p className="mt-4 text-lg md:text-xl">
                 Interior Planning, Space Optimization, Modern Design
