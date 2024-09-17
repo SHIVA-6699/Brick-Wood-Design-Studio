@@ -82,7 +82,7 @@ const Projects = () => {
   // Create a ref for the Swiper instance
 
   return (
-    <div>
+    <div className="bg-primary">
       {data.map((item, index) => (
         <CardSection key={index} imageData={item.img} title={item.title} />
       ))}

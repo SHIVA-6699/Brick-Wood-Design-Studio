@@ -1,4 +1,3 @@
-
 const Footer = () => {
   return (
     <footer className="bg-black text-gray-400 py-4 flex-col lg:flex-row gap-y-4 flex justify-between items-center px-6">
@@ -8,12 +7,12 @@ const Footer = () => {
         </p>
       </div>
       <div>
-        <a
-          href="https://brickwooddesignstudio.com"
+        {/* <Link
+          to="https://brickwooddesignstudio.com"
           className="hover:text-yellow-400 transition-colors duration-300"
-        >
-          brickwooddesignstudio
-        </a>
+        > */}
+          Brickwooddesignstudio@gmail.com
+        {/* </Link> */}
       </div>
     </footer>
   );

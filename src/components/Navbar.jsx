@@ -1,4 +1,5 @@
 import  { useState } from "react";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -7,27 +8,27 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-primary border-b border-black px-6 py-5">
+    <nav className="bg-primary  px-6 py-5">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="text-lg lg:text-2xl text-secondary font-bold font-heading duration-700">
+        <Link to={"/"} className="text-lg lg:text-2xl text-secondary font-bold font-heading duration-700">
           Brick Wood Design Studio
-        </div>
+        </Link>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-10 text-xl">
-          <a href="/" className="hover:text-black text-sm lg:text-lg text-secondary">
+          <Link to="/" className="hover:text-black text-sm lg:text-lg text-secondary">
             HOME
-          </a>
+          </Link>
 
-          <a href="/projects" className="hover:text-black text-sm lg:text-lg text-secondary">
+          <Link to="/projects" className="hover:text-black text-sm lg:text-lg text-secondary">
             PROJECTS
-          </a>
-          <a href="/ourstory" className="hover:text-black text-sm lg:text-lg text-secondary">
+          </Link>
+          <Link to="/ourstory" className="hover:text-black text-sm lg:text-lg text-secondary">
             OUR STORY
-          </a>
-          <a href="/contact" className="hover:text-black text-sm lg:text-lg text-secondary">
+          </Link>
+          <Link to="/contact" className="hover:text-black text-sm lg:text-lg text-secondary">
             CONTACT
-          </a>
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -58,21 +59,21 @@ const Navbar = () => {
       <div
         className={`md:hidden duration-500 ${isOpen ? "block" : "hidden"} mt-4`}
       >
-        <a href="/" className="block py-2 px-4 text-white hover:bg-rise">
+        <Link to="/" className="block py-2 px-4 text-white hover:bg-rise">
           Home
-        </a>
-        <a href="/about" className="block py-2 px-4 text-white hover:bg-rise">
+        </Link>
+        <Link to="/projects" className="block py-2 px-4 text-white hover:bg-rise">
           About
-        </a>
-        <a
-          href="/ourstory"
+        </Link>
+        <Link
+          to="/ourstory"
           className="block py-2 px-4 text-white hover:bg-rise"
         >
           Our Story
-        </a>
-        <a href="/contact" className="block py-2 px-4 text-white hover:bg-rise">
+        </Link>
+        <Link to="/contact" className="block py-2 px-4 text-white hover:bg-rise">
           Contact
-        </a>
+        </Link>
       </div>
     </nav>
   );
