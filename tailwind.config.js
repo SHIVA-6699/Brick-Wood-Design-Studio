@@ -8,6 +8,7 @@ export const theme = {
     },
     fontFamily: {
       heading: ["Caveat Brush", "sans-serif"],
+      cursive: ["Comic Sans MS", "cursive"],
     },
   },
 };

@@ -10,17 +10,18 @@ const Navbar = () => {
   return (
     <nav className="bg-primary  px-6 py-5">
       <div className="container mx-auto flex justify-between items-center">
-          <Link
-            to={"/"}
-            className="text-lg flex items-center gap-x-3 lg:text-2xl text-secondary font-bold font-heading duration-700"
-          >
-            <img
-              src="/logo.png"
-              alt="IMGAE LOGO PNG"
-              className="w-10 h-10 bg-white rounded-full"
-            />
-            Brick Wood Design Studio
-          </Link>
+        <Link
+          to={"/"}
+          className="text-lg flex items-center gap-x-3 lg:text-2xl text-secondary font-bold font-heading duration-700"
+        >
+          <img
+            src="/logo.png"
+            alt="IMGAE LOGO PNG"
+            className="w-10 h-10 bg-white rounded-full"
+          />
+
+          <p className="font-cursive">BrickWood Design Studio</p>
+        </Link>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-10 text-xl">

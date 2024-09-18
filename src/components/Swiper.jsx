@@ -65,7 +65,7 @@ const SwiperComponent = () => {
             <div className="text-center relative -top-[7rem] lg:top-0 text-white">
               <img src="/Home/logo2.png" className="" />
               <p className="absolute  top-[8rem] md:top-[15rem] md:left-[5rem] text-center text-lg md:text-xl">
-                Architecture Planning, Interior Designing, Space Crafting
+                Architecture Planning, Interior Designing, Space&nbsp;Crafting
               </p>
             </div>
           </div>
