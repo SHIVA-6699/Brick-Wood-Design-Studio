@@ -24,9 +24,9 @@ const SwiperComponent = () => {
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-            <div className="text-center text-white">
+            <div className="text-center relative text-white">
               <img src="/Home/logo2.png" className="" />
-              <p className="mt-4 text-lg md:text-xl">
+              <p className="absolute sm:top-[15rem] sm:left-[7rem] text-center text-lg md:text-xl">
                 Architecture Planning, Interior Designing, Space Crafting
               </p>
             </div>
