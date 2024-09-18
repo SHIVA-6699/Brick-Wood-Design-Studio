@@ -6,7 +6,7 @@ export const About = () => {
         About US
       </h1>
 
-      <div className="lg:mx-[20rem] mx-10 space-y-4 lg:space-y-[10rem]">
+      <div className="xl:mx-[20rem] mx-10 space-y-4 lg:space-y-[10rem]">
         {about.map((item, index) => (
           <LineComp
             key={index}
