@@ -11,7 +11,7 @@ const SwiperComponent = () => {
       slidesPerView={1}
       navigation
       pagination={{ clickable: true }}
-      autoplay={{ delay: 2500, disableOnInteraction: false }}
+      // autoplay={{ delay: 2500, disableOnInteraction: false }}
       modules={[Navigation, Pagination, Autoplay]}
       className="h-[45rem] lg:h-[40rem]"
     >
@@ -25,11 +25,9 @@ const SwiperComponent = () => {
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
             <div className="text-center text-white">
-              <h1 className="text-4xl md:text-5xl font-bold">
-                We are onair to build your dreams
-              </h1>
+              <img src="/Home/logo2.png" className="" />
               <p className="mt-4 text-lg md:text-xl">
-                Architectural Planning, Interior designing, Space crafting
+                Architecture Planning, Interior Designing, Space Crafting
               </p>
             </div>
           </div>
@@ -44,13 +42,11 @@ const SwiperComponent = () => {
             alt="Living Room Image"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+          <div className="absolute  inset-0 bg-black bg-opacity-50 flex items-center justify-center">
             <div className="text-center text-white">
-              <h1 className="text-4xl md:text-5xl font-bold">
-                We are onair to build your dreams
-              </h1>
+              <img src="/Home/logo2.png" className="" />
               <p className="mt-4 text-lg md:text-xl">
-                Interior Planning, Space Optimization, Modern Design
+                Architecture Planning, Interior Designing, Space Crafting
               </p>
             </div>
           </div>
@@ -67,11 +63,9 @@ const SwiperComponent = () => {
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
             <div className="text-center text-white">
-              <h1 className="text-4xl md:text-5xl font-bold">
-                We are onair to build your dreams
-              </h1>
+              <img src="/Home/logo2.png" className="" />
               <p className="mt-4 text-lg md:text-xl">
-                Interior Planning, Space Optimization, Modern Design
+                Architecture Planning, Interior Designing, Space Crafting
               </p>
             </div>
           </div>
@@ -87,11 +81,9 @@ const SwiperComponent = () => {
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
             <div className="text-center text-white">
-              <h1 className="text-4xl md:text-5xl font-bold">
-                We are onair to build your dreams
-              </h1>
+              <img src="/Home/logo2.png" className="" />
               <p className="mt-4 text-lg md:text-xl">
-                Interior Planning, Space Optimization, Modern Design
+                Architecture Planning, Interior Designing, Space Crafting
               </p>
             </div>
           </div>
@@ -106,11 +98,9 @@ const SwiperComponent = () => {
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
             <div className="text-center text-white">
-              <h1 className="text-4xl md:text-5xl font-bold">
-                We are onair to build your dreams
-              </h1>
+              <img src="/Home/logo2.png" className="" />
               <p className="mt-4 text-lg md:text-xl">
-                Interior Planning, Space Optimization, Modern Design
+                Architecture Planning, Interior Designing, Space Crafting
               </p>
             </div>
           </div>
@@ -125,11 +115,9 @@ const SwiperComponent = () => {
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
             <div className="text-center text-white">
-              <h1 className="text-4xl md:text-5xl font-bold">
-                We are onair to build your dreams
-              </h1>
+              <img src="/Home/logo2.png" className="" />
               <p className="mt-4 text-lg md:text-xl">
-                Interior Planning, Space Optimization, Modern Design
+                Architecture Planning, Interior Designing, Space Crafting
               </p>
             </div>
           </div>
